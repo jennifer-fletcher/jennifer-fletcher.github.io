@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Home page for Jennifer Fletcher's Website">
+    <meta name="author" content="Jennifer Fletcher">
+    <link rel="shortcut icon" href="favicon.png" />
+
+    <title>Week 3 In Class Assignment</title>
+
+		<style>
+		</style>
+  </head>
+
+  <body>
+
+    <header>
+      <h1>In Class Assignment 3: Responsive Webpage</h1>
+      <p> Try resizing the page to see the image size change with the browser! <p>
+    </header>
+
+    <div class="responsive">
+     <img srcset="img/imgsmall.jpg 480w,
+                  img/imgmed.jpg 960w,
+                  img/imgbig.jpg 1280w,"
+           sizes="(max-width: 480px) 100vw,
+                 (max-width: 960px) 90vw,
+                 (max-width: 1280px) 70vw,
+                 1280px">
+<br><br>
+<p> Here is another example using a different type of code. </p>
+<br><br>
+     <picture>
+       <source media="(min-width: 769px)" srcset="img/img2big.jpg">
+       <source media="(min-width: 650px)" srcset="img/img2med.jpg">
+       <source media="(min-width: 465px)" srcset="img/img2small.jpg">
+       <img src="https://placekitten.com/g/200/200" alt="small_cat" style="width:auto;">
+     </picture>
+
+  <a href="index.html"> Go Back to Main Page
+</body>
+
+</html>
