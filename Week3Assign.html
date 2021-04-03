@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Home page for Jennifer Fletcher's Website">
+    <meta name="author" content="Jennifer Fletcher">
+    <link rel="shortcut icon" href="favicon.png" />
+
+    <title>Homework 3: Responsive</title>
+
+<style>
+  .video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+     img {
+       width: 100%;
+       height: auto;}
+   </style>
+ </head>
+ <body style= "background-color:lavender;">
+<h1> Responsive Webpage With Audio, Picture, and Video! </h1>
+<h3> Click this for calming rain sounds as you scroll. </h3>
+   <audio controls>
+     <source src="audio/rain.mp3">
+   </audio>
+<br> <br>
+<h3> Here's a picture I took from a plane after landing in Minneapolis for spring break. </h3>
+     <img srcset="img/rain480.jpg 480w,
+                 img/rain960.jpg 960w,
+                 img/rain1280.jpg 1280w,"
+          sizes="100vw"
+               src="images/hw3_480.jpg" alt="Rain From A Landed Plane">
+<br> <br>
+<h3> Add to the experience with the peaceful sounds of the Breath of the Wild Soundtrack </h3>
+  <div class="video-responsive">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Q15xiaBTqqY" title="YouTube video player"
+  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen></iframe>
+</div>
+   <br>
+
+ <a href="index.html">Home Page</a>
+ </body>
+</html>
