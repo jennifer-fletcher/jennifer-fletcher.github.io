@@ -334,7 +334,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 30vh;
+  height: 23vh;
   background: url("../img/rain.jpg") center center;
   background-size: cover;
   position: relative;
