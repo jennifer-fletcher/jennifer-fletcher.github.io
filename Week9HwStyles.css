@@ -9,13 +9,13 @@ body {
 
 header {
   background: #55296c;
-  height: 100px;
+  height: 80px;
 }
 
 h1 {
   text-align: center;
   color: white;
-  line-height: 100px;
+  line-height: 80px;
   margin: 0;
 }
 
