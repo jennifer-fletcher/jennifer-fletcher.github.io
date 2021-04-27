@@ -93,19 +93,19 @@ second set of code from https://tympanus.net/codrops/2011/11/02/original-hover-e
 for hover effect 1
 --------------------------------------------------------------*/
 
-.view-first img {
-    transition: all 0.2s linear;
-}
-
 @keyframes blueToPurple {
     from {background-color: rgba(104, 22, 167, 0.68);}
     to {background-color: rgba(22, 94, 167, 0.68);}
 }
 
+.view-first img {
+    transition: all 0.2s linear;
+}
+
 .view-first .mask {
   opacity: 0;
   animation-name: blueToPurple;
-  animation-duration: 4s;
+  animation-duration: 2.5s;
   animation-direction: alternate-reverse;
   animation-iteration-count: infinite;
  transition: all 0.4s ease-in-out;
