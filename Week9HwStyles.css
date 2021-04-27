@@ -57,20 +57,19 @@ first set of code from https://tympanus.net/codrops/2011/11/02/original-hover-ef
     display: block;
     position: relative
 }
-.view h2 {
+.view h1 {
     text-transform: uppercase;
     color: #fff;
     text-align: center;
     position: relative;
-    font-size: 17px;
+    font-size: 20px;
     padding: 10px;
-    background: rgba(0, 0, 0, 0.8);
-    margin: 20px 0 0 0
+    margin: 10px 0 0 0
 }
 .view p {
     font-family: Georgia, serif;
     font-style: italic;
-    font-size: 12px;
+    font-size: 24px;
     position: relative;
     color: #fff;
     padding: 10px 20px 20px;
@@ -97,11 +96,23 @@ for hover effect 1
 .view-first img {
     transition: all 0.2s linear;
 }
-.view-first .mask {
-    opacity: 0;
-    background-color: rgba(104, 22, 167, 0.68);
-    transition: all 0.4s ease-in-out;
+
+@keyframes blueToPurple {
+    from {background-color: rgba(104, 22, 167, 0.68);}
+    to {background-color: rgba(22, 94, 167, 0.68);}
 }
+
+.view-first .mask {
+  opacity: 0;
+  background-color: red;
+  animation-name: blueToPurple;
+  animation-duration: 4s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+  transition: all 0.4s ease-in-out;
+}
+
+
 .view-first h2 {
     transform: translateY(-100px);
     opacity: 0;
