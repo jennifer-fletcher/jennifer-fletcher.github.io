@@ -104,7 +104,6 @@ for hover effect 1
 
 .view-first .mask {
   opacity: 0;
-  background-color: red;
   animation-name: blueToPurple;
   animation-duration: 4s;
   animation-direction: alternate-reverse;
