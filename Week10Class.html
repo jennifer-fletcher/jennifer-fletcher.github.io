@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Home page for Jennifer Fletcher's Website">
+    <meta name="author" content="Jennifer Fletcher">
+    <link rel="shortcut icon" href="img/favicon.png" />
+
+    <title>Week 10 In Class Assignment</title>
+
+		<style>
+		</style>
+  </head>
+
+
+<body>
+  <!DOCTYPE html>
+  <html>
+  <head>
+  	<title>CSS3 Animations</title>
+
+  	<style>
+  	/* https://zellwk.com/blog/css-animations/
+      You create a CSS Animation by defining an animation in @keyframes.*/
+  		@keyframes example1 {
+  			from {background-color: lavender;}
+  			to {background-color: lightpink;}
+  		}
+
+  		/* The element to apply the animation to */
+  .box1 {
+      width: 100px;
+      height: 100px;
+      margin: 15px;
+      background-color: lavender;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+  .box1:active {
+      animation-name: example1;
+      animation-duration: 4s;
+      animation-direction: alternate-reverse;
+      animation-iteration-count: infinite;
+      transform:translateX(45px);
+  }
+
+  @keyframes example2 {
+      0%   {background-color: lightpink;}
+      25%  {background-color: #fcffa4;}
+      50%  {background-color: #DEF4FF;}
+      100% {background-color: lightgreen;}
+  }
+  div.box2 {
+      width: 100px;
+      height: 100px;
+      margin: 15px;
+      background-color: lightpink;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+    div.box2:hover {
+      animation-name: example2;
+      animation-duration: 4s;
+      animation-iteration-count: 3; /* infinite */
+      transform:translateX(45px);
+  }
+  /* The animation code */
+  @keyframes example3 {
+      0%   {background-color:#DEF4FF; left:0px; top:0px;}
+      25%  {background-color:#fcffa4; left:200px; top:0px;}
+      50%  {background-color:lightpink; left:200px; top:200px;}
+      75%  {background-color:lightgreen; left:0px; top:200px;}
+      100% {background-color:#DEF4FF; left:0px; top:0px;}
+  }
+
+  /* The element to apply the animation to */
+  .box3 {
+      width: 100px;
+      height: 100px;
+      margin: 15px;
+      position: relative;
+      background-color: red;
+      animation-name: example3;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+  }
+  	</style>
+  </head>
+  <body>
+    <center>
+      <h1> Week 10: In Class Assignment </h1>
+      <div class="box1">
+          <p> Click and Hold </p>
+      </div>
+
+      <div class="box2">
+        <p> Hover </p>
+      </div>
+
+      <div class="box3">
+          <p> Infinite Loop </p>
+      </div>
+    </center>
+      </body>
+      </html>
+      <a href="index.html">
+  </center>
+  Go Back to Main Page
+</body>
+
+</html>
