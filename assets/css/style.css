@@ -120,6 +120,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -514,6 +515,30 @@ section {
 .about .icon-boxes p {
   font-size: 15px;
   color: #848484;
+}
+
+@keyframes aboutme {
+    0%   {background-color: #CFB7EE;}
+    25%  {background-color: #EAB7EE;}
+    50%  {background-color: #EEB7D6;}
+    100% {background-color:#B7BBEE;}
+}
+.aboutme {
+  background-color:#B7BBEE;
+  padding:15px;
+
+}
+
+.aboutme:hover {
+  background-color: lightpink;
+  animation-name: aboutme;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+.me{
+  padding: 1px;
+  background-color: lightgrey;
 }
 
 /*--------------------------------------------------------------
