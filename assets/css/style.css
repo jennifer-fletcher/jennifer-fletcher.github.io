@@ -597,7 +597,7 @@ section {
 }
 
 .portfolio .portfolio-item figure {
-  background:white;
+  background:pink;
   overflow: hidden;
   height: 240px;
   position: relative;
