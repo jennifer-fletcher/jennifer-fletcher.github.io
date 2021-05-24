@@ -5,13 +5,14 @@
 * License: https://bootstrapmade.com/license/
 */
 
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #444;
-  background-color: lavender;
+  background-color: rgba(249, 183, 255,0.5);
 }
 
 a {
@@ -326,7 +327,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   top: 0;
   width: 130%;
   height: 95%;
-  background: linear-gradient(to right, rgba(51, 87, 255,0.7), rgba(91, 10, 191 , 0.7)), url("../img/memes/internet2.jpg") center top no-repeat;
+  background: linear-gradient(to right, rgba(1, 12, 83,0.7), rgba(34, 1, 83, 0.7)), url("../img/memes/internet2.jpg") center top no-repeat;
   z-index: 0;
   border-radius: 0 0 50% 50%;
   transform: translateX(-50%) rotate(0deg);
@@ -1630,6 +1631,7 @@ margin-top: 100px;
 
 .blog {
   padding: 40px 0 20px 0;
+  background-color: rgba(213, 183, 255, 0.6);
 }
 
 .blog .entry {
