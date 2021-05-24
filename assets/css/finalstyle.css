@@ -5,7 +5,12 @@
 * License: https://bootstrapmade.com/license/
 */
 
+.button {
+  border-radius: 15%;
+  border-color: rgba(45, 68, 218, 0.2);
+  background-color: rgba(45, 68, 218,0.4);
 
+}
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
